@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
+import "./random.css"
 
 const RandomLocation = () => {
     const [locations, setLocations] = useState('')
@@ -12,16 +13,15 @@ const RandomLocation = () => {
         });
     };
 
-    useEffect(() => {
-        getLocation()
-    }, [])
 
     return (
-        <div className="button">
+        <div className="button hidden1" role='hiddenbtn'>
             <p>{locations.Name}</p>
-            <img src={locations.Img}></img>
-            <button onClick={getLocation}>Random Location</button>
+            <img classname="randomimg"src={locations.Img}></img>
+            <button className='hidden' id="randomButton" data-testid='randombtn' onClick={getLocation}>Random Location</button>
+            
         </div>
+
     )
 };
 
