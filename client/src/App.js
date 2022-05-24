@@ -10,6 +10,7 @@ import Results from './pages/Results';
 import Lobby from './pages/Lobby';
 import Destination from './pages/Destination';
 import RandomLocation from './components/RandomLocation/RandomLocation';
+import Chatroom from './pages/Chatroom';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/result" element={<Results />} />
         <Route path="/destination" element={<Destination />} />
         <Route path="/lobby" element={<Lobby />} />
+        <Route path="/chat" element={<Chatroom />} />
         <Route path="/random" element={<RandomLocation />} />
       </Routes>
     </>

@@ -8,7 +8,7 @@ function Lobby() {
     const [username, setUsername] = useState('')
     const [userList, setUserList] = useState([])
 
-    const client = new w3cwebsocket(`ws://127.0.0.1:8000/ws/lobbies/test/`);
+    const client = new w3cwebsocket('ws://127.0.0.1:8000/ws/chat/' + this.state.room + '/');
 
     useEffect(() => {
         client.onopen = () => {
