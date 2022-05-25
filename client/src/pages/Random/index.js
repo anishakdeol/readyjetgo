@@ -8,12 +8,12 @@ function Random() {
     
   return (
       
-    <div className='App'>
-        <NavBar />
+    <div className='App' role='randomiser'>
+        {/* <NavBar /> */}
             
             
     
-        { <RandomLocation/> }
+        <RandomLocation/>
     </div>
     
   )

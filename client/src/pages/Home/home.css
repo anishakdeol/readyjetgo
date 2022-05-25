@@ -6,15 +6,24 @@
     margin: 1rem 0 ;
     padding:1rem;
   }
+  #welcomeSign {
+    /* background-color: #053271; */
+    border-radius: 23px 23px 23px 23px;
+    margin-left: 20px;
+  }
 
   .homeTitle {
     text-align: center;
     font-size: 9rem;
-    font-family: 'Grape Nuts';
+    font-family: 'sans-serif';
   }
 
   .carousel {
-    margin: 50px;
+    margin-top: 100px;
+  }
+
+  .carousel1 {
+    padding-top: 90px;
   }
 
   .randomButton {
@@ -44,8 +53,8 @@
     letter-spacing: 1px;
     position: relative;
     box-shadow: 0 7px #999;
-    margin-left: 700px;
-    top: 70px;
+    margin-left: 850px;
+    top: 100px;
     font-size: 2.5rem;
     animation: pulsate 1.5s infinite alternate;  
     border: 0.2rem solid #fff;
@@ -80,8 +89,8 @@
     letter-spacing: 1px;
     position: relative;
     box-shadow: 0 7px #999;
-    margin-left: 350px;
-    top: -3px;
+    margin-left: 240px;
+    top: -39px;
     font-size: 2.5rem;
     animation: pulsate 1.5s infinite alternate;  
     border: 0.2rem solid #fff;
@@ -96,15 +105,50 @@
     background-color: #010a01;
   }
 
-  .boxContainer {
-    background-color: #053271;
-    border-radius: 23px 23px 23px 23px;width: 90%;
-    height: 575px;
-    margin-left: 80px;
-    position: relative;
-    bottom: 20px;
-    
+  .chatButton {
+      margin-right: 100px;
+      border-radius: 3px;
+      padding: 1rem 3.5rem;
+      margin-top: 1rem;
+      color: #fff;
+      text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #053271,
+      0 0 82px #053271,
+      0 0 92px #053271,
+      0 0 102px #053271,
+      0 0 151px #053271;
+      text-transform: uppercase;
+      cursor: pointer;
+      letter-spacing: 1px;
+      position: relative;
+      box-shadow: 0 7px #999;
+      margin-left: 600px;
+      top: 30px;
+      font-size: 2.5rem;
+      animation: pulsate 1.5s infinite alternate;  
+      border: 0.2rem solid #fff;
+      border-radius: 2rem;
+      padding: 0.4em;
+      box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #053271,
+                0 0 0.8rem #053271,
+                0 0 2.8rem #053271,
+              inset 0 0 1.3rem #053271;
+      background-color: #010a01;
   }
 
-  
+  .boxContainer {
+    background-color: #f1fdcd;
+    border-radius: 23px 23px 23px 23px;
+    width: 90%;
+    height: 600px;
+    margin-left: 80px;
+    position: relative;
+    top: -80px;
 
+    
+  }
