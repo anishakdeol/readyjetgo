@@ -8,7 +8,9 @@ import PrivateRoute from './components/PrivateRoute';
 import TravelSurvey from './pages/Quiz';
 import Results from './pages/Results';
 import Lobby from './pages/Lobby';
+import Destination from './pages/Destination';
 import RandomLocation from './components/RandomLocation/RandomLocation';
+import Random from './pages/Random';
 
 
 
@@ -23,8 +25,9 @@ function App() {
         <Route path="/main" element={<Main />} />
         <Route path="/quiz" element={<TravelSurvey />} />
         <Route path="/result" element={<Results />} />
+        <Route path="/destination" element={<Destination />} />
         <Route path="/lobby" element={<Lobby />} />
-        <Route path="/random" element={<RandomLocation />} />
+        <Route path="/random" element={<Random />} />
       </Routes>
     </>
   );
