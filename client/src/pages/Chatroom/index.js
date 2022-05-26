@@ -11,7 +11,7 @@ class Chatroom extends Component {
         messages: [],
         value: '',
         name: '',
-        room: 'r',
+        room: 'RJG',
       }
     
       client = new W3CWebSocket(`ws://127.0.0.1:8000/ws/chat/${this.state.room}/`);
