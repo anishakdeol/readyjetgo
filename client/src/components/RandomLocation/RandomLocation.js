@@ -26,7 +26,7 @@ const RandomLocation = () => {
         
         
         <div className="randomContainer" >
-        <button className="backRandomButton" onClick={()=>navigate('/home')}>Return   <br></br>Home</button>
+        <button className="backRandomButton" id="randloc" onClick={()=>navigate('/home')}>Return   <br></br>Home</button>
         <button className='hidden' id="randomButton" onClick={getLocation}>Random Location</button>
         
             

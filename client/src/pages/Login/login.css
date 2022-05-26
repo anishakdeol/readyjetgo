@@ -203,7 +203,7 @@ body {
 }
 
 #title {
-  font-size: 100rem;
+  font-size: 100px;
   margin-bottom: 2rem;
   /* font-family: 'Grape Nuts'; */
 }
@@ -237,5 +237,10 @@ img {
   padding-right: 5px;
   margin: 10px;
 }
+
+
+
+
+
 
 

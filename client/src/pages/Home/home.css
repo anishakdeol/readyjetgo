@@ -181,3 +181,41 @@
     position: relative;
     left: 20px;
   }
+
+  @media (max-width: 584px){
+
+    .Home{
+      position: relative;
+      left: 95%
+    }
+
+    .boxContainer{
+      position: relative;
+      top: 100%;
+      height: 100vh;
+      width: 1000px;
+    }
+
+    .quizButton, .chatButton, .randomButton{
+      position: relative;
+      right: 170px;
+    }
+
+    .chatButton{
+      bottom: 5px
+    }
+
+    .randomButton{
+      bottom: 5px;
+    }
+
+    nav{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 80%;
+    }
+
+
+
+  }
