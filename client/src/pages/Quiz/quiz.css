@@ -177,3 +177,48 @@
             inset 0 0 1.3rem #053271;
     background-color: #010a01;
 }
+
+@media (max-width: 584px){
+
+  .quizTitle{
+    position: relative;
+    left: 190px;
+  }
+
+
+  .quizContainer{
+    width: 500px;
+    position: relative;
+    right: 200px;
+
+  }
+
+  .cardQuiz{
+    width: 500px;
+    height: 280px;
+  }
+
+  .feedback-button{
+    position: relative;
+    right: 55%;
+    bottom: 50%;
+  }
+
+  #qustionBox{
+    width: 170%;
+    height: 110vh;
+    margin-top: 40px;
+    position: relative;
+    right: 40px;
+
+  }
+
+  .navbar{
+    position: relative;
+    right: 100%
+  }
+
+
+
+
+}

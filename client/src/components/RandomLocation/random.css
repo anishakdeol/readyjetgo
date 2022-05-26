@@ -120,5 +120,21 @@ p {
   margin-top: -50px;
 }
 
+@media (max-width: 584px){
+
+  .randomContainer{
+    width: 200%;
+  }
+
+  #locationName{
+    font-size: 58px;
+  }
+
+  .randomimg{
+    width: 80%;
+  }
+
+}
+
 
 
