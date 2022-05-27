@@ -4,11 +4,11 @@ import NavBar from '../../layout/NavBar';
 import "./main.css";
 
 import App from '../../components/Spinner/Spinner';
-import Confetti from 'react-confetti'
-import useWindowSize from 'react-use/lib/useWindowSize'
+// import Confetti from 'react-confetti'
+// import useWindowSize from 'react-use/lib/useWindowSize'
 
 function Auth() {
-    const { width, height } = useWindowSize()
+    // const { width, height } = useWindowSize()
     
     return (
         <>
@@ -18,10 +18,10 @@ function Auth() {
         <App />
         
         
-        <Confetti
+        {/* <Confetti
                 width={width}
                 height={height}
-    />
+    /> */}
     
     </div>   
         </>

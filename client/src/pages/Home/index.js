@@ -42,7 +42,7 @@ function Home() {
   ]
   return (
     <>
-      <NavBar className="bar" />
+      <NavBar  />
       <div className="Home"
         role="Home">
         <h1 className="homeTitle">Welcome {user}</h1>
